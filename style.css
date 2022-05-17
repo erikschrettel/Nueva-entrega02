@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&family=Poppins:wght@100&family=Roboto+Mono:wght@300;500&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body {
+    background-color: white;
+    font-family: "Robot-Mono", sans-serif;
+}
+
+.logo {
+    height: 90%;
+}
+
+.header {
+    background: rgb(254, 251, 251);
+    height: 200px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 100px;
+    box-shadow: 0 0 10px 10px rgba(0, 0, 0, 0.1);
+
+}
+
+.nav-list {
+    display: flex;
+    gap: 100px;
+    list-style: none;
+    font-size: 25px;
+
+}
+
+.nav-link {
+    color: black;
+}
+
+.nav-link:hover {
+    text-decoration: underline;
+    color: #ff7f50;
+}
+
+.nav-item {
+    box-shadow: 0 5px rgba(0, 0, 0, 0.1);
+}
